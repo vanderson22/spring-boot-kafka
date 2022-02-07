@@ -1,0 +1,19 @@
+curl --location --request POST 'http://localhost:8080/produce' \
+--header 'Content-Type: application/json' \
+--data-raw '[
+    {
+        "message": "Kafka example message - 1 "
+    },
+    {
+        "message": "Kafka example message - 2 "
+    },
+    {
+        "message": "Kafka example message - 3 "
+    },
+    {
+        "message": "Kafka example message - 4 "
+    },
+    {
+        "message": "Kafka example message - 5 "
+    }
+]'
